@@ -1,0 +1,41 @@
+header {
+    box-shadow: rgba(170, 170, 200, 0.5) 0px 1px 0px;
+
+    nav {
+        .navbar-brand {
+            font-size: 28px;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                font-size: 18px;
+                transition: transform 0.5s;
+                padding: 0px 12px;
+
+                .nav-link.active {
+                    font-weight: 500;
+                }
+            }
+
+            .nav-item:hover {
+                transform: scale(1.2);
+
+                .nav-link {
+                    color: #f77f00;
+                }
+            }
+        }
+
+        .btn {
+            font-size: 18px;
+            transition: transform 0.5s;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+        }
+    }
+}
